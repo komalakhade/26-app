@@ -13,7 +13,7 @@ const PostData = () => {
                 Post Data
             </h1>
             {
-                data.map(post => <div key={post.id} className="mb-5 px-10">
+                data.map(post => <div key={post.id} className="mb-7 px-10 ">
                     <h3 className="text-2xl mb-3">Title: {post.title}</h3>
                     <h3 className="text-xl">Description: {post.body}</h3>
                     <hr />
